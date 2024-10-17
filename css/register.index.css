@@ -1,0 +1,72 @@
+/* Start-Geral */
+
+body{
+    background-color: #ADD8E6;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font: normal lighter 20pt cursive;
+}
+
+/* isso é o code da section com o id Base */ 
+
+#base{
+    display: block;
+    margin: auto
+}
+
+/* inline é só pra definir elementos q sei q n é inlinee tacar eles pra inline */ 
+
+.inline{
+    display: inline-flex;
+}
+
+/* End-Geral
+
+/*  Start-ChangePage  */
+
+/*
+ sigla LR só pra avisar Fututo eu é L(login) R(Register) eu sei q devia ter o O LOR  Login or Register  
+
+*/
+
+#LR{ border-radius: 12px;
+
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+/* isso aqui é o h3 */ 
+#LR{
+    padding: 6px;
+}
+#LR:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.2);
+}
+#LR:not(:hover){
+    transition-duration: 0.4s;
+}
+
+/* isso é tag a */ 
+
+.aLR{
+    text-decoration: none;
+    border-radius: 12px;
+    background-color: aliceblue;
+}
+.aLR:hover{
+    transition-duration: 0.4s;
+    font-size: 18pt;
+}
+.aLR:not(:hover){
+    transition-duration:0.4s;
+}
+
+/* End-ChangePage */ 
+
+/* Start  Section-InfoPes */ 
+/* End Section-InfoPes
